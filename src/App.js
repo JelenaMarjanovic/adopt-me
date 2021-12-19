@@ -1,3 +1,5 @@
+/* global React ReactDOM */
+
 const Pet = ({ name, animal, bread }) => {
   return React.createElement("div", {}, [
     React.createElement("h2", {}, name),
